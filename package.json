@@ -1,0 +1,20 @@
+{
+  "name": "filmstrip-view",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm-run-all --parallel client server",
+    "dev": "concurrently \"npm run run-server\" \"npm run run-client\"",
+    "run-server": "node server/index.js",
+    "run-client": "cd client && npm run dev",
+    "client": "cd client && npm install",
+    "server": "cd server && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
