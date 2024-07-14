@@ -12,9 +12,8 @@ This is a simple filmstrip view for your favorite movies. It uses a backend serv
 ### Installation
 
 1. Clone the repository
-2. Run `npm install` to install the dependencies
-3. Run `npm run install` to install the dependencies for both the client and the server
-4. Run `npm run dev` to start the server and the client
+2. Run `npm install` to install the dependencies for both the client and the server
+4. Run `npm run dev` to start the server and the client simultaneously
 
 ## Usage
 
